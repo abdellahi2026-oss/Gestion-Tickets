@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "RIMATEL SA - Ticketing System",
+    "company": "RIMATEL SA"
+  },
+  "auth": {
+    "login": "Login",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "logout": "Logout",
+    "welcome": "Welcome",
+    "loginError": "Invalid username or password",
+    "invalidCredentials": "Invalid username or password",
+    "accountInactive": "This account is inactive",
+    "loginSuccess": "Login successful",
+    "demoCredentials": "Demo credentials"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "tickets": "Tickets",
+    "newTicket": "New Ticket",
+    "reports": "Reports"
+  },
+  "ticket": {
+    "title": "Tickets",
+    "new": "New Ticket",
+    "number": "Ticket #",
+    "subscriberNumber": "Subscriber Number",
+    "clientName": "Client Name",
+    "phone": "Phone",
+    "wilaya": "Region",
+    "region": "Zone",
+    "subscriptionType": "Subscription Type",
+    "complaintType": "Complaint Type",
+    "problemDescription": "Problem Description",
+    "status": "Status",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "create": "Create Ticket",
+    "update": "Update",
+    "close": "Close",
+    "search": "Search...",
+    "filter": "Filter",
+    "all": "All",
+    "duplicateError": "An open ticket already exists for this subscriber number",
+    "createSuccess": "Ticket created successfully",
+    "updateSuccess": "Ticket updated successfully",
+    "subscriberFormat": "Format: DAB + 1-6 digits (ex: DAB123456)",
+    "phoneFormat": "6-15 digits, can start with +"
+  },
+  "status": {
+    "nouveau": "New",
+    "assigné": "Assigned",
+    "paiement": "Payment",
+    "en_cours": "In Progress",
+    "injoignable": "Unreachable",
+    "en_retard": "Late",
+    "fermé": "Closed"
+  },
+  "subscriptionTypes": {
+    "SAWI": "SAWI",
+    "LTE": "LTE",
+    "BLR": "BLR",
+    "FTTH": "FTTH",
+    "LS/MPLS": "LS/MPLS"
+  },
+  "complaintTypes": {
+    "CONNEXION_COUPEE": "Connection Cut",
+    "CONNEXION_FAIBLE": "Weak Connection",
+    "CONNEXION_INSTABLE": "Unstable Connection",
+    "PROBLEME_CABLE": "Cable Problem",
+    "PROBLEME_ROUTEUR": "Router Problem",
+    "PROBLEME_ANTENNE": "Antenna Problem"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "user": "User",
+    "technicien": "Technician"
+  },
+  "admin": {
+    "title": "Administration",
+    "users": "User Management",
+    "logs": "Activity Log",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "assignServices": "Assign Services",
+    "userList": "User List",
+    "createUser": "Create User",
+    "fullName": "Full Name",
+    "role": "Role",
+    "services": "Assigned Services",
+    "active": "Active",
+    "inactive": "Inactive",
+    "confirmDelete": "Are you sure you want to delete this user?",
+    "userDeleted": "User deleted successfully",
+    "userDeletedPartially": "User deleted from database, but error occurred while deleting authentication",
+    "authDeleteNote": "Note: User remains in auth.users but cannot login as their profile has been deleted."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "total": "Total",
+    "open": "Open",
+    "closed": "Closed",
+    "late": "Late",
+    "byWilaya": "Tickets by Region",
+    "byRegion": "Tickets by Zone (NKC)",
+    "byService": "Tickets by Service",
+    "recentTickets": "Recent Tickets"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidFormat": "Invalid format",
+    "regionRequired": "Zone is required for Nouakchott"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "optional"
+  }
+}
+

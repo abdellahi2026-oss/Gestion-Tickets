@@ -1,0 +1,134 @@
+{
+  "app": {
+    "title": "RIMATEL SA - نظام التذاكر",
+    "company": "RIMATEL SA"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "logout": "تسجيل الخروج",
+    "welcome": "مرحبا",
+    "loginError": "اسم المستخدم أو كلمة المرور غير صحيحة",
+    "invalidCredentials": "اسم المستخدم أو كلمة المرور غير صحيحة",
+    "accountInactive": "هذا الحساب معطل",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "demoCredentials": "بيانات تجريبية"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "tickets": "التذاكر",
+    "newTicket": "تذكرة جديدة",
+    "reports": "التقارير"
+  },
+  "ticket": {
+    "title": "التذاكر",
+    "new": "تذكرة جديدة",
+    "number": "رقم التذكرة",
+    "subscriberNumber": "رقم المشترك",
+    "clientName": "اسم العميل",
+    "phone": "الهاتف",
+    "wilaya": "المنطقة",
+    "region": "المنطقة",
+    "subscriptionType": "نوع الاشتراك",
+    "complaintType": "نوع الشكوى",
+    "problemDescription": "وصف المشكلة",
+    "status": "الحالة",
+    "createdAt": "تاريخ الإنشاء",
+    "actions": "الإجراءات",
+    "create": "إنشاء التذكرة",
+    "update": "تحديث",
+    "close": "إغلاق",
+    "search": "بحث...",
+    "filter": "تصفية",
+    "all": "الكل",
+    "duplicateError": "يوجد تذكرة مفتوحة بالفعل لهذا الرقم",
+    "createSuccess": "تم إنشاء التذكرة بنجاح",
+    "updateSuccess": "تم تحديث التذكرة بنجاح",
+    "subscriberFormat": "الصيغة: DAB + 1-6 أرقام (مثال: DAB123456)",
+    "phoneFormat": "6-15 رقم، يمكن أن يبدأ بـ +"
+  },
+  "status": {
+    "nouveau": "جديد",
+    "assigné": "معين",
+    "paiement": "دفع",
+    "en_cours": "قيد التنفيذ",
+    "injoignable": "غير متاح",
+    "en_retard": "متأخر",
+    "fermé": "مغلق"
+  },
+  "subscriptionTypes": {
+    "SAWI": "SAWI",
+    "LTE": "LTE",
+    "BLR": "BLR",
+    "FTTH": "FTTH",
+    "LS/MPLS": "LS/MPLS"
+  },
+  "complaintTypes": {
+    "CONNEXION_COUPEE": "انقطاع الاتصال",
+    "CONNEXION_FAIBLE": "اتصال ضعيف",
+    "CONNEXION_INSTABLE": "اتصال غير مستقر",
+    "PROBLEME_CABLE": "مشكلة في الكابل",
+    "PROBLEME_ROUTEUR": "مشكلة في الراوتر",
+    "PROBLEME_ANTENNE": "مشكلة في الهوائي"
+  },
+  "roles": {
+    "admin": "مدير",
+    "user": "مستخدم",
+    "technicien": "تقني"
+  },
+  "admin": {
+    "title": "الإدارة",
+    "users": "إدارة المستخدمين",
+    "logs": "سجل النشاط",
+    "addUser": "إضافة مستخدم",
+    "editUser": "تعديل المستخدم",
+    "deleteUser": "حذف المستخدم",
+    "assignServices": "تعيين الخدمات",
+    "userList": "قائمة المستخدمين",
+    "createUser": "إنشاء مستخدم",
+    "fullName": "الاسم الكامل",
+    "role": "الدور",
+    "services": "الخدمات المعينة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "confirmDelete": "هل أنت متأكد من حذف هذا المستخدم؟",
+    "userDeleted": "تم حذف المستخدم بنجاح",
+    "userDeletedPartially": "تم حذف المستخدم من قاعدة البيانات، ولكن حدث خطأ أثناء حذف المصادقة",
+    "authDeleteNote": "ملاحظة: المستخدم لا يزال موجودًا في auth.users ولكن لا يمكنه تسجيل الدخول لأن ملفه الشخصي تم حذفه."
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "total": "الإجمالي",
+    "open": "مفتوحة",
+    "closed": "مغلقة",
+    "late": "متأخرة",
+    "byWilaya": "التذاكر حسب المنطقة",
+    "byRegion": "التذاكر حسب المنطقة (نواكشوط)",
+    "byService": "التذاكر حسب الخدمة",
+    "recentTickets": "التذاكر الأخيرة"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidFormat": "صيغة غير صحيحة",
+    "regionRequired": "المنطقة مطلوبة لنواكشوط"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "back": "رجوع",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "optional": "اختياري"
+  }
+}
+
+

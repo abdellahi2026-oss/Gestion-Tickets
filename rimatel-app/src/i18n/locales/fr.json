@@ -1,0 +1,134 @@
+{
+  "app": {
+    "title": "RIMATEL SA - Système de Ticketing",
+    "company": "RIMATEL SA"
+  },
+  "auth": {
+    "login": "Connexion",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "logout": "Déconnexion",
+    "welcome": "Bienvenue",
+    "loginError": "Nom d'utilisateur ou mot de passe incorrect",
+    "invalidCredentials": "Nom d'utilisateur ou mot de passe incorrect",
+    "accountInactive": "Ce compte est désactivé",
+    "loginSuccess": "Connexion réussie",
+    "demoCredentials": "Identifiants de démo"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "tickets": "Tickets",
+    "newTicket": "Nouveau Ticket",
+    "reports": "Rapports"
+  },
+  "ticket": {
+    "title": "Tickets",
+    "new": "Nouveau Ticket",
+    "number": "N° Ticket",
+    "subscriberNumber": "N° d'abonné",
+    "clientName": "Nom du client",
+    "phone": "Téléphone",
+    "wilaya": "Région",
+    "region": "Zone",
+    "subscriptionType": "Type d'abonnement",
+    "complaintType": "Type de Réclamation",
+    "problemDescription": "Description du problème",
+    "status": "Statut",
+    "createdAt": "Créé le",
+    "actions": "Actions",
+    "create": "Créer le ticket",
+    "update": "Mettre à jour",
+    "close": "Fermer",
+    "search": "Rechercher...",
+    "filter": "Filtrer",
+    "all": "Tous",
+    "duplicateError": "Un ticket ouvert existe déjà pour ce numéro d'abonné",
+    "createSuccess": "Ticket créé avec succès",
+    "updateSuccess": "Ticket mis à jour avec succès",
+    "subscriberFormat": "Format: DAB + 1-6 chiffres (ex: DAB123456)",
+    "phoneFormat": "6-15 chiffres, peut commencer par +"
+  },
+  "status": {
+    "nouveau": "Nouveau",
+    "assigné": "Assigné",
+    "paiement": "Paiement",
+    "en_cours": "En cours",
+    "injoignable": "Injoignable",
+    "en_retard": "En retard",
+    "fermé": "Fermé"
+  },
+  "subscriptionTypes": {
+    "SAWI": "SAWI",
+    "LTE": "LTE",
+    "BLR": "BLR",
+    "FTTH": "FTTH",
+    "LS/MPLS": "LS/MPLS"
+  },
+  "complaintTypes": {
+    "CONNEXION_COUPEE": "Connexion Coupée",
+    "CONNEXION_FAIBLE": "Connexion Faible",
+    "CONNEXION_INSTABLE": "Connexion Instable",
+    "PROBLEME_CABLE": "Problème Câble",
+    "PROBLEME_ROUTEUR": "Problème Routeur",
+    "PROBLEME_ANTENNE": "Problème Antenne"
+  },
+  "roles": {
+    "admin": "Administrateur",
+    "user": "Utilisateur",
+    "technicien": "Technicien"
+  },
+  "admin": {
+    "title": "Administration",
+    "users": "Gestion des Utilisateurs",
+    "logs": "Journal d'Activité",
+    "addUser": "Ajouter un Utilisateur",
+    "editUser": "Modifier l'Utilisateur",
+    "deleteUser": "Supprimer l'Utilisateur",
+    "assignServices": "Assigner des Services",
+    "userList": "Liste des Utilisateurs",
+    "createUser": "Créer un Utilisateur",
+    "fullName": "Nom Complet",
+    "role": "Rôle",
+    "services": "Services Assignés",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?",
+    "userDeleted": "Utilisateur supprimé avec succès",
+    "userDeletedPartially": "Utilisateur supprimé de la base de données, mais erreur lors de la suppression de l'authentification",
+    "authDeleteNote": "Note : L'utilisateur reste dans auth.users mais ne peut plus se connecter car son profil a été supprimé."
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "total": "Total",
+    "open": "Ouverts",
+    "closed": "Fermés",
+    "late": "En retard",
+    "byWilaya": "Tickets par Région",
+    "byRegion": "Tickets par Zone (NKC)",
+    "byService": "Tickets par Service",
+    "recentTickets": "Tickets récents"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "invalidFormat": "Format invalide",
+    "regionRequired": "La zone est obligatoire pour Nouakchott",
+    "optional": "optionnel"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "back": "Retour",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "optional": "optionnel"
+  }
+}
+

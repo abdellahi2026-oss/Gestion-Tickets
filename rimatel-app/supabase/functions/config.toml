@@ -1,0 +1,11 @@
+# Configuration des Edge Functions Supabase
+# Ce fichier définit les paramètres pour toutes les fonctions
+
+[delete-user]
+# Fonction de suppression d'utilisateur
+verify_jwt = true
+
+[update-user]
+# Fonction de mise à jour d'utilisateur
+verify_jwt = true
+
